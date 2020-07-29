@@ -1,0 +1,24 @@
+Notes about Julia-lang.
+
+-Compilation is simple, type 'Julia' followed by the file name ie hello_world.jl
+
+-Indentation not required, however, the 'end' keyword must be used for things like for loops.
+
+Multi line comment syntax is '#=  =#'
+
+-Can use triple quotation marks for strings, this allows the use of quotation marks in the string ie hello_world = """ "hello world" """. Also allows for easy formatting ie \n \t
+
+-Use $ to interpolate a variable within a string. (Think %s in python) use $variable_name
+
+-Tuples are immutable.
+
+-Julia uses 1 index. So we start counting from 1 not 0 like EVERYTHING else..
+
+-syntax for dictionaries. mydictionary = Dict("Jenny" => "12345678", "Chase" => "9887")
+ Calling names from the dict mydictionary["Jenny"] 
+
+-Create an array with array_name = []
+
+-push!(array_name, variable) to add to the end of an array. (Cannot add a diff type?)
+
+-pop!(array_name) to pop the last number off the array.

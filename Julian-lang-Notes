@@ -22,3 +22,10 @@ Multi line comment syntax is '#=  =#'
 -push!(array_name, variable) to add to the end of an array. (Cannot add a diff type?)
 
 -pop!(array_name) to pop the last number off the array.
+
+
+
+
+
+
+
